@@ -43,7 +43,7 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: #976F5E;
 }
 
 .main-page {
@@ -114,7 +114,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #F27145;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -145,6 +145,21 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
+  height: 70px;
+  padding: 15px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 997;
+  background: #37383A;
+}
+
+/*
+
+BEFORE CHANGES
+
+#header {
   height: 90px;
   padding: 25px 0;
   position: fixed;
@@ -162,6 +177,7 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
 }
+*/
 
 #header #logo h1 {
   font-size: 36px;
@@ -288,7 +304,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f82249;
+  background-color: #D4FBC1;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -302,10 +318,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #f82249;
+  background: #F27145;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid #F27145;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -680,7 +696,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgb(47, 67, 64, 0.8); /* color code #2F4340 with .8 transparency*/
   position: absolute;
   bottom: 0;
   top: 0;
@@ -831,7 +847,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: #976F5E;
   color: #fff;
   padding: 10px 100px;
 }
@@ -1142,7 +1158,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: #976F5E;
   color: #fff;
   padding: 10px 100px;
 }
@@ -1435,7 +1451,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #101522;
+  background: #2F4340;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
