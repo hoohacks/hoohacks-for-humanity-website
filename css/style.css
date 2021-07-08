@@ -16,14 +16,14 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: #976F5E;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #f8234a;
+  color: #976F5E;
   outline: none;
   text-decoration: none;
 }
@@ -72,7 +72,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #976F5E;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -304,7 +304,7 @@ BEFORE CHANGES
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #D4FBC1;
+  background-color: #DEFBC8;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -389,6 +389,7 @@ BEFORE CHANGES
 
 #mobile-nav-toggle i {
   color: #fff;
+
 }
 
 /* Mobile Nav Styling */
@@ -399,7 +400,7 @@ BEFORE CHANGES
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(6, 12, 34, 0.9);
+  background: #37383A;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -460,7 +461,7 @@ BEFORE CHANGES
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(6, 12, 34, 0.8);
+  background: rgb(55, 56, 58, 0.6);
   display: none;
 }
 
@@ -1651,7 +1652,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991px) {
   #header {
-    background: rgba(6, 12, 34, 0.98);
+    background: #37383A;
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
